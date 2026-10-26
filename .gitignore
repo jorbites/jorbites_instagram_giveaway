@@ -5,3 +5,5 @@
 participants.csv
 participants.json
 session-*
+__pycache__/
+*.pyc

@@ -10,11 +10,10 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Provide credentials via `.env` (auto-loaded):
+Provide credentials via `.env` (copy from `.env.example`):
 
-```
-IG_USERNAME=your_username
-IG_PASSWORD=your_password
+```bash
+cp .env.example .env
 ```
 
 ## Usage
